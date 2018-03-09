@@ -94,6 +94,11 @@ blockquote {
   font-family: "Times New Romen", serif;
 }
 
+blockquote * {
+  font-style: inherit;
+  font-size: inherit;
+}
+
 figcaption {
   font-size: 12px;
   line-height: 16px;
