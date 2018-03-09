@@ -75,14 +75,24 @@ h4, h5, h6 {
 }
 
 p, ol, ul, dl, table, address, figure {
-  max-resolution: 0 0 24px;
+  margin: 0 0 24px;
 }
 
-ul, ol, blockquote {}
+ul, ol, blockquote {
+  padding-left: 24px;
+}
 
-li ul, li ol {}
+li ul, li ol {
+  margin-bottom: 0px;
+}
 
-blockquote {}
+blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: "Times New Romen", serif;
+}
 
 figcaption {
   font-size: 12px;
@@ -91,7 +101,12 @@ figcaption {
   color: Grey;
 }
 
-hr {}
+hr {
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 24px;
+}
 
 a {}
 
